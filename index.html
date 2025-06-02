@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">
+          <span class="logo-icon"></span>
+          <span class="portfolio-title">My Portfolio</span>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">&#9776;</button>
+        <ul
+          class="nav-links"
+          id="navLinks"
+          style="gap: 3rem; margin-right: 7rem"
+        >
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <button class="theme-toggle" id="themeToggle">Dark-Theme</button>
+
+    <header>
+      <div class="animated-bg" id="animatedBg"></div>
+      <div class="hero-content" id="home">
+        <div class="hero-text">
+          <h1>M.Salman</h1>
+          <div>
+            <p class="para">
+              I’m Salman, a passionate and results-driven Front-End Developer
+              with
+              <span style="color: var(--primary-color)"
+                >2 years of experience
+              </span>
+              in transforming creative ideas into seamless, high-performance web
+              applications. Over the past few years, I’ve successfully completed
+              <span style="color: var(--primary-color)">30+ projects </span>
+            </p>
+            <p class="para">
+              My expertise lies in
+              <span>React.js, HTML5, CSS3, JavaScript</span>, and
+              <span>Bootstrap</span>, all of which I use to build modern,
+              responsive websites that work flawlessly across all devices.
+            </p>
+            <a href="#portfolio" class="btn">View My Work</a>
+            <a href="#contact" class="btn">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="accests/tttttt-removebg-preview.png" class="profile-pic" />
+        </div>
+      </div>
+    </header>
+
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="portfolio-grid">
+         <div class="card">
+  <img src="accests/shop.png" alt="Kabab App Project" class="card-img" />
+  <h3 class="card-title">E-Commerce</h3>
+  <p class="card-desc">
+    A modern, shopping platform with elegant design
+    and user-first experience.
+  </p>
+  <a
+    href="https://salman2733-dev.github.io/kabab-app/"
+    target="_blank"
+    class="card-btn"
+  >
+    View Demo
+  </a>
+</div>
+
+          <!-- 🌐 Gemni-AI Card -->
+         <div class="card">
+  <img src="accests/gemi.png" alt="Gemni AI Project" class="card-img" />
+  <h3 class="card-title">Gemni-AI</h3>
+  <p class="card-desc">
+    Integrates with a REST API for real-time data management.
+  </p>
+  <a
+    href="https://heroic-biscotti-c929e3.netlify.app"
+    target="_blank"
+    class="card-btn"
+  >
+    View Demo
+  </a>
+</div>
+
+          <!-- 🌱 Inventra App Card -->
+          <div class="card">
+  <img src="accests/greeno.png" alt="Inventra App Project" class="card-img" />
+  <h3 class="card-title">Inventra App</h3>
+  <p class="card-desc">
+    A responsive app with customizable controls and multiple
+    transition effects.
+  </p>
+  <a
+    href="https://fanciful-strudel-e75eb3.netlify.app"
+    target="_blank"
+    class="card-btn"
+  >
+    View Demo
+  </a>
+</div>
+
+
+         <div class="card">
+  <img src="accests/cloude.png" alt="Weather App Project" class="card-img" />
+  <h3 class="card-title">Nobel Finances</h3>
+  <p class="card-desc">
+    Nobel Finances a company that provides excellent financial  to help grow your wealth effectively.
+  </p>
+  <a
+    href="https://shimmering-torte-32165b.netlify.app"
+    target="_blank"
+    class="card-btn"
+  >
+    View Demo
+  </a>
+</div>
+
+         <div class="card">
+  <img src="accests/final.png" alt="AI Customer Project" class="card-img" />
+  <h3 class="card-title">AI Customer</h3>
+  <p class="card-desc">
+    The only AI customer service solution you need and solve your
+    problems! That's easy, Lets start
+  </p>
+  <a
+    href="https://regal-faun-a3adda.netlify.app"
+    target="_blank"
+    class="card-btn"
+  >
+    View Demo
+  </a>
+</div>
+
+         <div class="card">
+  <img src="accests/hire.png" alt="Hire Now Project" class="card-img" />
+  <h3 class="card-title">HIRE NOW</h3>
+  <p class="card-desc">
+    A fully responsive hire now website custmer services snd find job with animation and elegant design .
+  </p>
+  <a
+    href="https://stupendous-begonia-1ccdf9.netlify.app"
+    target="_blank"
+    class="card-btn"
+  >
+    View Demo
+  </a>
+</div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+          <div class="skill-card">
+            <div class="skill-icon">&#128187;</div>
+            <h3 class="skill-title">HTML/CSS</h3>
+            <div class="skill-level">
+              <div class="skill-progress" data-level="95"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">&#128208;</div>
+            <h3 class="skill-title">JavaScript</h3>
+            <div class="skill-level">
+              <div class="skill-progress" data-level="90"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">&#128736;</div>
+            <h3 class="skill-title">React</h3>
+            <div class="skill-level">
+              <div class="skill-progress" data-level="85"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">&#127912;</div>
+            <h3 class="skill-title">UI/UX Design</h3>
+            <div class="skill-level">
+              <div class="skill-progress" data-level="80"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">&#128736;</div>
+            <h3 class="skill-title">Bootstrap</h3>
+            <div class="skill-level">
+              <div class="skill-progress" data-level="85"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">&#128736;</div>
+            <h3 class="skill-title">Tailwind</h3>
+            <div class="skill-level">
+              <div class="skill-progress" data-level="80"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">&#128241;</div>
+            <!-- 📱 -->
+
+            <h3 class="skill-title">Responsive</h3>
+            <div class="skill-level">
+              <div class="skill-progress" data-level="80"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <form class="contact-form" onsubmit="sendToWhatsApp(event)">
+          <div class="input-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name" />
+          </div>
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your Email" />
+          </div>
+          <div class="input-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Your Message"></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="social-links">
+          <a
+            href="https://wa.me/923257848624"
+            class="social-link"
+            target="_blank"
+          >
+            <i class="fab fa-whatsapp"></i>
+          </a>
+
+          <a
+            href="https://www.facebook.com/Profile.php?id=100030579521027"
+            class="social-link"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/m.salman2733"
+            class="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <a
+            href="https://github.com/salman2733-dev"
+            class="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="mailto:salmanmalik1234540@gmail.com"
+            class="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+        <p class="copyright">&copy; 2025 M@lik $alman. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
