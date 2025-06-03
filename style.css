@@ -879,7 +879,7 @@ footer {
     text-shadow: 0 0 5px rgba(0, 216, 216, 0.3);
   }
   header {
-    height: 135vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
